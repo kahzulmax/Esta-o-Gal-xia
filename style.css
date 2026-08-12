@@ -1,0 +1,67 @@
+body{
+
+background:#050505;
+color:white;
+font-family:Orbitron;
+
+margin:0;
+}
+
+header{
+
+display:flex;
+
+justify-content:space-between;
+
+padding:20px;
+
+background:#111;
+}
+
+h1{
+
+color:#00ffff;
+
+text-shadow:
+0 0 5px #00ffff,
+0 0 20px #00ffff;
+}
+
+nav a{
+
+color:white;
+
+margin-left:20px;
+
+text-decoration:none;
+}
+
+.hero{
+
+height:80vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+}
+
+button{
+
+padding:15px 30px;
+
+background:#ff00ff;
+
+border:none;
+
+color:white;
+
+cursor:pointer;
+
+box-shadow:
+0 0 10px #ff00ff,
+0 0 30px #ff00ff;
+}
